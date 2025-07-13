@@ -1,0 +1,77 @@
+section {
+  margin-top: 100px;
+}
+div {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: greenyellow;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+div:nth-of-type(2n) {
+  background-color: red;
+}
+
+div:nth-of-type(3n) {
+  background-color: orange;
+}
+
+/* transform== ROTATE
+transform:rotate(deg);
+*/
+
+#one {
+  transform: rotate(45deg);
+}
+
+#two {
+  transform: rotate(-50deg);
+}
+
+#three {
+  transform: rotate(90deg);
+}
+
+#four {
+  transform: rotate(15deg);
+}
+
+#five {
+  transform: rotate(180deg);
+}
+
+/* transform == SCALE
+
+transform:scale(size); */
+
+#one {
+  transform: scale(0.5);
+}
+
+#three {
+  transform: scale(2);
+}
+
+#five {
+  transform: scale(2, 0.5);
+}
+
+/* transform :Translate -mostly used in 3D
+transform:translate(x_axis, y_axis)*/
+
+#four {
+  transform: translate(100px, 200px);
+}
+
+/* transform:SKEW */
+#one {
+  transform: skew(-33deg);
+}
+
+/*overall operation */
+
+#five {
+  transform: rotate(23deg) translate(50px) skew(75deg) scale(1.3);
+}

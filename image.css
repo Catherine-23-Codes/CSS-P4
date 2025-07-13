@@ -1,0 +1,8 @@
+div {
+  height: 200px;
+  width: 400px;
+  background-color: rgb(178, 236, 119);
+  margin: 10px auto;
+  /* adding image */
+  background-image: url("C:\Users\\OneDrive\Desktop\Frontend\CSS Part 4\image1.css");
+}

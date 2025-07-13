@@ -1,0 +1,16 @@
+div {
+  height: 300px;
+  width: 300px;
+  color: red;
+  background-color: #e55050b3;
+
+  /* transistions */
+  transition: 5s;
+}
+
+div:hover {
+  background-color: #7474e9;
+  border-radius: 50%;
+}
+
+/* transform= used to rotate scale skew or translate */

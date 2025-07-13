@@ -1,0 +1,14 @@
+div {
+  height: 100px;
+  width: 80px;
+  background-color: rgb(178, 236, 119);
+  margin: 10px auto;
+  /* adding image */
+  background-image: url("11.jpg");
+  background-size: cover;
+  color: rgb(238, 255, 0);
+}
+
+/* background images option 
+1)background-size: contain/cover/auto 
+*/
