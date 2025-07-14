@@ -17,4 +17,5 @@
 - CSS Illustration: Constructing simple smiley face graphics using pure CSS.
 
 
-### Copyright free images : https://unsplash.com/
+## always note that image which we download must be in same folder that we are linking to image tag! 
+### Copyright free images website : https://unsplash.com/
